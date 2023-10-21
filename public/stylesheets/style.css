@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  font-weight: bold;
+  color: #00B7FF;
+  direction: none;
+}
+
+.bmi {
+  display: inline-flex;
+  gap: 1rem;
+  ;
+}
+
+.bmi-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bmi-form .bmi-form-element {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+.bmi-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 0.7rem;
+}
+
+.bmi-form label {
+  font-weight: 600;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 8px;
+  /* border: 0;
+  border-radius: 0;
+  background-color: #00B7FF; */
+}

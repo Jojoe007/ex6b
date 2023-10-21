@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <h3>How to use</h3>
+    <ul>
+        <li>Insert your body weight and height.</li>
+        <li>Click Calculate.</li>
+    </ul>
+
+    <span class="bmi">
+        <form action="/bmi" method="post" class="bmi-form">
+            <div class="bmi-title">Input</div>
+
+            <div class="bmi-form-element">
+                <label for="weight">Weight (kg)</label>
+                <input name="weight" type="text">
+            </div>
+
+            <div class="bmi-form-element">
+                <label for="height">Height (cm)</label>
+                <input name="height" type="text">
+            </div>
+            <button type="submit" class="button">Calculate</button>
+        </form>
+    </span>
+
+</body>
+
+</html>
